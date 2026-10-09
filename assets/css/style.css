@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+
+.contenedor {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.formulario {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.agregar {
+    background-color: #198754;
+}
+
+.cambiar {
+    background-color: #0d6efd;
+}
+
+.eliminar {
+    background-color: #dc3545;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.descripcion {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.botones {
+    display: flex;
+    gap: 5px;
+}
+
+.contadores {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
